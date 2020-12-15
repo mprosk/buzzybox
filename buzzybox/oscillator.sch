@@ -164,7 +164,7 @@ AR Path="/5FD42985/5FB07025" Ref="Q12"  Part="1"
 AR Path="/5FD42988/5FB07025" Ref="Q13"  Part="1" 
 AR Path="/5FD4298B/5FB07025" Ref="Q14"  Part="1" 
 F 0 "Q5" H 5641 3804 50  0000 L CNN
-F 1 "Q_NPN_EBC" H 5641 3895 50  0000 L CNN
+F 1 "NPN" H 5641 3895 50  0000 L CNN
 F 2 "buzzybox:TO-92-2" H 5650 3950 50  0001 C CNN
 F 3 "~" H 5450 3850 50  0001 C CNN
 	1    5450 3850
@@ -234,45 +234,6 @@ Wire Wire Line
 	5350 3650 5600 3650
 Wire Wire Line
 	5600 3550 5600 3650
-$Comp
-L Device:C C?
-U 1 1 5FB0704B
-P 5850 3850
-AR Path="/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB04F5B/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB0809B/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB08189/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB0823D/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB0838F/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB083E3/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB084BD/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB1B762/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB1B962/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB1BC8A/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB1BF2A/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB1C1D8/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FB1C552/5FB0704B" Ref="C?"  Part="1" 
-AR Path="/5FD40CD3/5FB0704B" Ref="C2"  Part="1" 
-AR Path="/5FD412A5/5FB0704B" Ref="C3"  Part="1" 
-AR Path="/5FD41369/5FB0704B" Ref="C4"  Part="1" 
-AR Path="/5FD41435/5FB0704B" Ref="C5"  Part="1" 
-AR Path="/5FD4152B/5FB0704B" Ref="C6"  Part="1" 
-AR Path="/5FD41635/5FB0704B" Ref="C7"  Part="1" 
-AR Path="/5FD416C9/5FB0704B" Ref="C8"  Part="1" 
-AR Path="/5FD42979/5FB0704B" Ref="C9"  Part="1" 
-AR Path="/5FD4297C/5FB0704B" Ref="C10"  Part="1" 
-AR Path="/5FD4297F/5FB0704B" Ref="C11"  Part="1" 
-AR Path="/5FD42982/5FB0704B" Ref="C12"  Part="1" 
-AR Path="/5FD42985/5FB0704B" Ref="C13"  Part="1" 
-AR Path="/5FD42988/5FB0704B" Ref="C14"  Part="1" 
-AR Path="/5FD4298B/5FB0704B" Ref="C15"  Part="1" 
-F 0 "C6" H 5965 3896 50  0000 L CNN
-F 1 "C" H 5965 3805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5888 3700 50  0001 C CNN
-F 3 "~" H 5850 3850 50  0001 C CNN
-	1    5850 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 4050 5850 4000
 Wire Wire Line
@@ -336,5 +297,26 @@ F 2 "" H 5600 4450 50  0001 C CNN
 F 3 "" H 5600 4450 50  0001 C CNN
 	1    5600 4450
 	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C10
+U 1 1 5FD88ECD
+P 5850 3850
+AR Path="/5FD4297F/5FD88ECD" Ref="C10"  Part="1" 
+AR Path="/5FD40CD3/5FD88ECD" Ref="C1"  Part="1" 
+AR Path="/5FD412A5/5FD88ECD" Ref="C2"  Part="1" 
+AR Path="/5FD41369/5FD88ECD" Ref="C3"  Part="1" 
+AR Path="/5FD41435/5FD88ECD" Ref="C4"  Part="1" 
+AR Path="/5FD4152B/5FD88ECD" Ref="C5"  Part="1" 
+AR Path="/5FD41635/5FD88ECD" Ref="C6"  Part="1" 
+AR Path="/5FD416C9/5FD88ECD" Ref="C7"  Part="1" 
+AR Path="/5FD42979/5FD88ECD" Ref="C8"  Part="1" 
+AR Path="/5FD4297C/5FD88ECD" Ref="C9"  Part="1" 
+F 0 "C5" H 5965 3896 50  0000 L CNN
+F 1 "CP1" H 5965 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 5850 3850 50  0001 C CNN
+F 3 "~" H 5850 3850 50  0001 C CNN
+	1    5850 3850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
